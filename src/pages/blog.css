@@ -1,0 +1,89 @@
+.blog-container {
+  padding: 40px;
+  max-width: 1000px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.blog-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.blog-form input,
+.blog-form select,
+.blog-form button {
+  padding: 10px 14px;
+  font-size: 14px;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  outline: none;
+}
+
+.blog-form button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.blog-form button:hover {
+  background-color: #357ac9;
+}
+
+.blog-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.blog-table th,
+.blog-table td {
+  padding: 14px;
+  text-align: left;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.blog-table th {
+  background-color: #f7f8fa;
+  color: #555;
+  font-weight: 600;
+}
+
+.blog-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.actions button {
+  margin-right: 6px;
+  padding: 6px 10px;
+  font-size: 13px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #ffe58f;
+  color: #7a5b00;
+}
+
+.delete-btn {
+  background-color: #ff7875;
+  color: white;
+}
