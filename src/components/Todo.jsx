@@ -7,7 +7,7 @@ import {
 import { Component } from "react";
 import "./Todo.css";
 
-export default class Todo extends Component {
+export default class todo extends Component {
   constructor() {
     super();
     this.state = {
